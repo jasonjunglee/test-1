@@ -1,0 +1,56 @@
+// Variables
+$serious: Courier;
+$resume-blue: #4F92FF;
+$border: 1px solid gray;
+
+// * {
+// 	border: 1px dashed red;
+// 	margin: 10px;
+// }
+
+button {
+	box-shadow: 1.5px 1.5px gray;
+	background-color: $resume-blue;
+	border: $border;
+	height: 30px;
+	width: 150px;
+	font {
+		family: $serious;
+		size: 20px;
+	}
+}
+
+
+
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.loginContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font {
+		family: $serious;
+	}
+	margin {
+		top: 15%;
+		right: 15%;
+		left: 15%;
+	}
+	input {
+		font-family: arial;
+		padding-left: 5px;
+		font-size: 20px;
+		height: 30px;
+		width: 120px;
+	}
+	div {
+		padding: 5px;
+	}
+}
+// .passwordInput {
+// 	font-family: arial;
+// }
